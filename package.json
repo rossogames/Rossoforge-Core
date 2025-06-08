@@ -1,0 +1,16 @@
+{
+  "name": "com.rossogames.rossoforge-core",
+  "version": "1.0.0",
+  "displayName": "RossoForge-Core",
+  "description": "Defines shared interfaces and base types used across the Rossoforge ecosystem. This package provides common contracts for all systems",
+  "unity": "2025.0",
+  "author": {
+    "name": "Agustin Rosso",
+    "url": "https://www.linkedin.com/in/rossoagustin/"
+  },
+  "keywords": [
+    "core",
+    "rossogames",
+    "rossoforge"
+  ]
+}
