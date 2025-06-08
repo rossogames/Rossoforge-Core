@@ -2,8 +2,7 @@
     "name": "RossoForge.Core",
     "rootNamespace": "RossoForge.Core",
     "references": [
-        "Unity.Addressables",
-        "Unity.ResourceManager"
+        "Unity.Addressables"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
