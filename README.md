@@ -9,6 +9,8 @@
 
 **RossoForge - Core** Defines shared interfaces and base types used across the Rossoforge ecosystem. This package provides common contracts for all systems
 
+**Version**: Unity 6 or higher
+
 #
 This package is part of the **RossoForge** suite, designed to streamline and enhance Unity development workflows.
 
