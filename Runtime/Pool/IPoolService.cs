@@ -13,6 +13,6 @@ namespace Rossoforge.Core.Pool
         Awaitable<IPooledObject> GetAsync(IPooledObjectAsyncData data, Transform parent, Vector3 position, Space relativeTo);
         Awaitable PopulateAsync(IPooledObjectAsyncData data);
 
-        void Clear(IPooledObjectData data);
+        bool Clear(IPooledObjectData data);
     }
 }
