@@ -1,6 +1,6 @@
 {
-    "name": "RossoForge.Core",
-    "rootNamespace": "RossoForge.Core",
+    "name": "Rossoforge.Core",
+    "rootNamespace": "Rossoforge.Core",
     "references": [
         "Unity.Addressables"
     ],

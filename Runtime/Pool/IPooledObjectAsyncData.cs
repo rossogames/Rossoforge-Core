@@ -1,6 +1,6 @@
 using UnityEngine.AddressableAssets;
 
-namespace RossoForge.Core.Pool
+namespace Rossoforge.Core.Pool
 {
     public interface IPooledObjectAsyncData : IPooledObjectData
     {
