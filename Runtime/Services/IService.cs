@@ -1,4 +1,4 @@
-namespace RossoForge.Core.Services
+namespace Rossoforge.Core.Services
 {
     public interface IService
     {

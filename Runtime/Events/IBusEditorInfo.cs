@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace RossoForge.Core.Events
+namespace Rossoforge.Core.Events
 {
     public interface IBusEditorInfo
     {

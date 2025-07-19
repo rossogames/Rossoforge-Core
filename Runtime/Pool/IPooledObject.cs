@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace RossoForge.Core.Pool
+namespace Rossoforge.Core.Pool
 {
     public interface IPooledObject
     {

@@ -1,7 +1,7 @@
-using RossoForge.Core.Services;
+using Rossoforge.Core.Services;
 using UnityEngine;
 
-namespace RossoForge.Core.Pool
+namespace Rossoforge.Core.Pool
 {
     public interface IPoolService : IService
     {
@@ -13,6 +13,6 @@ namespace RossoForge.Core.Pool
         Awaitable<IPooledObject> GetAsync(IPooledObjectAsyncData data, Transform parent, Vector3 position, Space relativeTo);
         Awaitable PopulateAsync(IPooledObjectAsyncData data);
 
-        void Clear(IPooledObjectData data);
+        bool Clear(IPooledObjectData data);
     }
 }

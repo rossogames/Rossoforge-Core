@@ -1,9 +1,9 @@
-using RossoForge.Core.Services;
+using Rossoforge.Core.Services;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
 
-namespace RossoForge.Core.Addressables
+namespace Rossoforge.Core.Addressables
 {
     public interface IAddressableService : IService
     {

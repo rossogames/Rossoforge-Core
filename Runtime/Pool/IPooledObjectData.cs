@@ -1,4 +1,4 @@
-namespace RossoForge.Core.Pool
+namespace Rossoforge.Core.Pool
 {
     public interface IPooledObjectData
     {
