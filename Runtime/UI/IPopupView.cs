@@ -2,6 +2,7 @@ namespace Rossoforge.Core.UI
 {
     public interface IPopupView
     {
+        string Name { get; }
         PopupState State { get; }
         bool AllowCancel { get; }
 
