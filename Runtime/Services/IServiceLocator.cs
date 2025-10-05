@@ -7,5 +7,8 @@ namespace Rossoforge.Core.Services
         bool TryGet<T>(out T service) where T : IService;
         void Register<T>(T service) where T : IService;
         void Unregister<T>() where T : IService;
+        void Update();
+        void FixedUpdate();
+        void LateUpdate();
     }
 }
