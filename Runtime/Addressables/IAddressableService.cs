@@ -1,7 +1,9 @@
 using Rossoforge.Core.Services;
 using System.Collections.Generic;
 using UnityEngine;
+#if HAS_ADDRESSABLES
 using UnityEngine.AddressableAssets;
+#endif
 
 namespace Rossoforge.Core.Addressables
 {
@@ -13,9 +15,10 @@ namespace Rossoforge.Core.Addressables
         Awaitable<T> LoadAssetAsync<T>(string address) where T : Object;
         Awaitable<T> LoadAssetAsync<T>(string containerKey, string address) where T : Object;
 
+#if HAS_ADDRESSABLES
         Awaitable<T> LoadAssetAsync<T>(AssetReferenceT<T> assetReference) where T : Object;
         Awaitable<T> LoadAssetAsync<T>(string containerKey, AssetReferenceT<T> assetReference) where T : Object;
-
+#endif
         Awaitable<IList<T>> LoadAssetsAsync<T>(string label, System.Action<T> callback = null) where T : Object;
         Awaitable<IList<T>> LoadAssetsAsync<T>(string containerKey, string label, System.Action<T> callback = null) where T : Object;
 
