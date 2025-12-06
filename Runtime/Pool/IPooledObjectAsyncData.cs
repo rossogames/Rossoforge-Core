@@ -1,3 +1,4 @@
+#if HAS_ADDRESSABLES
 using UnityEngine.AddressableAssets;
 
 namespace Rossoforge.Core.Pool
@@ -7,3 +8,4 @@ namespace Rossoforge.Core.Pool
         AssetReferenceGameObject AssetReference { get; }
     }
 }
+#endif
