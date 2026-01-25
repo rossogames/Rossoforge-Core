@@ -1,4 +1,4 @@
-﻿namespace Rossoforge.Core.UI
+﻿namespace Rossoforge.Core.UI.Popups
 {
     public enum PopupState
     {
