@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace Rossoforge.Core.UI.Popups
 {
-    public interface IUIService : IService
+    public interface IPopupService : IService
     {
         void CancelPopup();
 
