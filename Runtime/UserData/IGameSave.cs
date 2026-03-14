@@ -2,6 +2,6 @@ namespace Rossoforge.Core.UserData
 {
     public interface IGameSave
     {
-        int Version { get; }
+        int Version { get; set; }
     }
 }
