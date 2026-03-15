@@ -2,9 +2,9 @@ using Rossoforge.Core.Pool;
 using Rossoforge.Core.Services;
 using UnityEngine;
 
-namespace Rossoforge.Core.UI
+namespace Rossoforge.Core.UI.Popups
 {
-    public interface IUIService : IService
+    public interface IPopupService : IService
     {
         void CancelPopup();
 

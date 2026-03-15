@@ -1,6 +1,6 @@
-﻿namespace Rossoforge.Core.UI
+namespace Rossoforge.Core.UI.Screens
 {
-    public enum PopupState
+    public enum ScreenState
     {
         Opening,
         Active,
