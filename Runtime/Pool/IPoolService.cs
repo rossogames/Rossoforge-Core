@@ -8,6 +8,7 @@ namespace Rossoforge.Core.Pool
         T Get<T>(IPooledGameobjectData data, Transform parent, Vector3 position, Space relativeTo) where T : Component;
         IPooledObject Get(IPooledGameobjectData data, Transform parent, Vector3 position, Space relativeTo);
         void Populate(IPooledGameobjectData data);
+        void ForceReturnAll();
 
 #if HAS_ADDRESSABLES
         Awaitable<T> GetAsync<T>(IPooledObjectAsyncData data, Transform parent, Vector3 position, Space relativeTo) where T : Component;
