@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.Audio;
 
 namespace Rossoforge.Core.Audio
 {
@@ -7,7 +8,7 @@ namespace Rossoforge.Core.Audio
     public class MainSettings
     {
         [field: SerializeField]
-        public AudioClip Clip { get; private set; }
+        public AudioResource AudioResource { get; private set; }
 
         [field: Range(0f, 1f)]
         [field: SerializeField]
