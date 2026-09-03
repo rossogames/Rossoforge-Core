@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.AddressableAssets;
 #endif
 
-namespace Rossoforge.Core.Addressables
+namespace Rossoforge.Addressables.Service
 {
     public interface IAddressableService : IService
     {
