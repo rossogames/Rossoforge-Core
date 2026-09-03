@@ -1,4 +1,4 @@
-namespace Rossoforge.Core.Events
+namespace Rossoforge.Events.Bus
 {
     public interface IEvent
     {
