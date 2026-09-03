@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Rossoforge.Core.Pool
+namespace Rossoforge.Pool.DataConfig
 {
     public interface IPooledGameobjectData : IPooledObjectData
     {

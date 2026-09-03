@@ -1,7 +1,7 @@
 #if HAS_ADDRESSABLES
 using UnityEngine.AddressableAssets;
 
-namespace Rossoforge.Core.Pool
+namespace Rossoforge.Pool.DataConfig
 {
     public interface IPooledObjectAsyncData : IPooledObjectData
     {
