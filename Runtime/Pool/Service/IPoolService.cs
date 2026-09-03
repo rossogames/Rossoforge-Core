@@ -8,18 +8,18 @@ namespace Rossoforge.Pool.Service
     {
         public const string DEFAULT_CATEGORY = "default";
 
-        T Get<T>(IPooledGameobjectData data, Transform parent, Vector3 position, Space relativeTo, string category = DEFAULT_CATEGORY) where T : Component;
-        IPooledObject Get(IPooledGameobjectData data, Transform parent, Vector3 position, Space relativeTo, string category = DEFAULT_CATEGORY);
-        void Populate(IPooledGameobjectData data, string category = DEFAULT_CATEGORY);
+        T Get<T>(IPooledGameobjectDataConfig data, Transform parent, Vector3 position, Space relativeTo, string category = DEFAULT_CATEGORY) where T : Component;
+        IPooledObject Get(IPooledGameobjectDataConfig data, Transform parent, Vector3 position, Space relativeTo, string category = DEFAULT_CATEGORY);
+        void Populate(IPooledGameobjectDataConfig data, string category = DEFAULT_CATEGORY);
         void ForceReturnAll();
 
 #if HAS_ADDRESSABLES
-        Awaitable<T> GetAsync<T>(IPooledObjectAsyncData data, Transform parent, Vector3 position, Space relativeTo, string category = DEFAULT_CATEGORY) where T : Component;
-        Awaitable<IPooledObject> GetAsync(IPooledObjectAsyncData data, Transform parent, Vector3 position, Space relativeTo, string category = DEFAULT_CATEGORY);
-        Awaitable PopulateAsync(IPooledObjectAsyncData data, string category = DEFAULT_CATEGORY);
+        Awaitable<T> GetAsync<T>(IPooledObjectAsyncDataConfig data, Transform parent, Vector3 position, Space relativeTo, string category = DEFAULT_CATEGORY) where T : Component;
+        Awaitable<IPooledObject> GetAsync(IPooledObjectAsyncDataConfig data, Transform parent, Vector3 position, Space relativeTo, string category = DEFAULT_CATEGORY);
+        Awaitable PopulateAsync(IPooledObjectAsyncDataConfig data, string category = DEFAULT_CATEGORY);
 #endif
 
-        bool Clear(IPooledObjectData data);
+        bool Clear(IPooledObjectDataConfig data);
         bool Clear(string category);
     }
 }

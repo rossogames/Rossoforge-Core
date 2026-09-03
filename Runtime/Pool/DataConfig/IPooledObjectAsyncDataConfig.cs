@@ -3,7 +3,7 @@ using UnityEngine.AddressableAssets;
 
 namespace Rossoforge.Pool.DataConfig
 {
-    public interface IPooledObjectAsyncData : IPooledObjectData
+    public interface IPooledObjectAsyncDataConfig : IPooledObjectDataConfig
     {
         AssetReferenceGameObject AssetReference { get; }
     }

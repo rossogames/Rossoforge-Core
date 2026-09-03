@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace Rossoforge.Pool.DataConfig
 {
-    public interface IPooledGameobjectData : IPooledObjectData
+    public interface IPooledGameobjectDataConfig : IPooledObjectDataConfig
     {
         GameObject AssetReference { get; }
     }
