@@ -1,6 +1,7 @@
+using Rossoforge.Core.Events;
 using Rossoforge.Core.Services;
 
-namespace Rossoforge.Core.Events
+namespace Rossoforge.Events.Service
 {
     public interface IEventService : IService
     {

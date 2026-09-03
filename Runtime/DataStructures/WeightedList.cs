@@ -39,7 +39,7 @@ namespace Rossoforge.Core.DataStructures
             for (int i = 0; i < Items.Count; i++)
             {
                 var item = Items[i];
-                if (item.Weight <= 0f) 
+                if (item.Weight <= 0f)
                     continue;
 
                 if (random < item.Weight)

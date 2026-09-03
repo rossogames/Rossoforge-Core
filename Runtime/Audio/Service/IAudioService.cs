@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace Rossoforge.Audio.Service
 {
-    public interface IAudioService : IService, IInitializable
+    public interface IAudioService : IService
     {
         void SetChannelVolume(AudioChannelDataConfig channel, float volume);
         void SetChannelMute(AudioChannelDataConfig channel, bool isMuted);
