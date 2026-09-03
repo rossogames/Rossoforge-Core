@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace Rossoforge.Core.Audio
+namespace Rossoforge.Audio.DataConfig
 {
     [Serializable]
     public class SpatialSettings

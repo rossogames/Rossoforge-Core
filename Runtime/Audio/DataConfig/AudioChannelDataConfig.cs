@@ -1,10 +1,10 @@
 using System;
 using UnityEngine;
 
-namespace Rossoforge.Core.Audio
+namespace Rossoforge.Audio.DataConfig
 {
-    [CreateAssetMenu(fileName = nameof(AudioChannelData), menuName = "Rossoforge/Audio/Audio Channel Data")]
-    public class AudioChannelData : ScriptableObject
+    [CreateAssetMenu(fileName = nameof(AudioChannelDataConfig), menuName = "Rossoforge/Data Config/Audio/Channel")]
+    public class AudioChannelDataConfig : ScriptableObject
     {
         public event Action<float> OnVolumeChanged;
         public event Action<bool> OnMutedChanged;

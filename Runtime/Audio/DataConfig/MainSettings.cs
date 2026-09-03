@@ -2,7 +2,7 @@ using System;
 using UnityEngine;
 using UnityEngine.Audio;
 
-namespace Rossoforge.Core.Audio
+namespace Rossoforge.Audio.DataConfig
 {
     [Serializable]
     public class MainSettings

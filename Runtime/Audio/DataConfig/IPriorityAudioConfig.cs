@@ -1,4 +1,4 @@
-namespace Rossoforge.Core.Audio
+namespace Rossoforge.Audio.DataConfig
 {
     public interface IPriorityAudioConfig
     {

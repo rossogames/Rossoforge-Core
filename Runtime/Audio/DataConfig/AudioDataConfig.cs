@@ -1,15 +1,15 @@
 using System;
 using UnityEngine;
 
-namespace Rossoforge.Core.Audio
+namespace Rossoforge.Audio.DataConfig
 {
-    public abstract class AudioConfigData : ScriptableObject
+    public abstract class AudioDataConfig : ScriptableObject
     {
         public event Action OnPlayRequested;
         public event Action OnStopRequested;
 
         [field: SerializeField]
-        public AudioChannelData Channel { get; private set; }
+        public AudioChannelDataConfig Channel { get; private set; }
 
         [field: SerializeField]
         public MainSettings Main { get; private set; }
