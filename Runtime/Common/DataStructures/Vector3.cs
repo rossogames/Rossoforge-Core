@@ -1,15 +1,16 @@
 using System;
 using UnityEngine;
 
-namespace Rossoforge.Core.DataStructures
+namespace Rossoforge.Common.DataStructures
 {
     [Serializable]
-    public class Vector2<T>
+    public class Vector3<T>
     {
-        public Vector2(T x, T y)
+        public Vector3(T x, T y, T z)
         {
             X = x;
             Y = y;
+            Z = z;
         }
 
         [field: SerializeField]
@@ -17,5 +18,8 @@ namespace Rossoforge.Core.DataStructures
 
         [field: SerializeField]
         public T Y { get; private set; }
+
+        [field: SerializeField]
+        public T Z { get; private set; }
     }
 }

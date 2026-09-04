@@ -1,7 +1,7 @@
-using Rossoforge.Core.Services;
+using Rossoforge.Services.Service;
 using System;
 
-namespace Rossoforge.Core.TimeFlow
+namespace Rossoforge.TimeFlow.Service
 {
     public interface ITimeFlowService : IService
     {

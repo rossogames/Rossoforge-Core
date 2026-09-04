@@ -1,4 +1,4 @@
-using Rossoforge.Core.Services;
+using Rossoforge.Services.Service;
 using System.Collections.Generic;
 using UnityEngine;
 #if HAS_ADDRESSABLES

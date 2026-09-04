@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace Rossoforge.Core.DataStructures
+namespace Rossoforge.Common.DataStructures
 {
     [Serializable]
     public class RangeNumber<T> where T : IComparable<T>

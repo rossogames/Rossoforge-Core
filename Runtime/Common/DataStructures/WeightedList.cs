@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Rossoforge.Core.DataStructures
+namespace Rossoforge.Common.DataStructures
 {
     [Serializable]
     public class WeightedList<T> : IEnumerable<WeightedItem<T>>

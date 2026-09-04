@@ -1,9 +1,10 @@
-using Rossoforge.Core.Services;
+using Rossoforge.Scenes.DataConfig;
+using Rossoforge.Services.Service;
 using System;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-namespace Rossoforge.Core.Scenes
+namespace Rossoforge.Scenes.Service
 {
     public interface ISceneService : IService
     {
@@ -11,11 +12,11 @@ namespace Rossoforge.Core.Scenes
         bool IsTransitionRunning { get; }
 
         Awaitable ChangeScene(string sceneName, Func<Awaitable> onScreenCoveredAsync = null);
-        Awaitable ChangeScene(string sceneName, ISceneTransitionData sceneTransitionData, Func<Awaitable> onScreenCoveredAsync = null);
+        Awaitable ChangeScene(string sceneName, ISceneTransitionDataConfig sceneTransitionData, Func<Awaitable> onScreenCoveredAsync = null);
         Awaitable GoBackScene(Func<Awaitable> onScreenCoveredAsync = null);
-        Awaitable GoBackScene(ISceneTransitionData sceneTransitionData, Func<Awaitable> onScreenCoveredAsync = null);
+        Awaitable GoBackScene(ISceneTransitionDataConfig sceneTransitionData, Func<Awaitable> onScreenCoveredAsync = null);
         Awaitable RestartScene(Func<Awaitable> onScreenCoveredAsync = null);
-        Awaitable RestartScene(ISceneTransitionData sceneTransitionData, Func<Awaitable> onScreenCoveredAsync = null);
+        Awaitable RestartScene(ISceneTransitionDataConfig sceneTransitionData, Func<Awaitable> onScreenCoveredAsync = null);
         Awaitable LoadSceneAsync(string sceneName, LoadSceneMode mode);
         Awaitable UnloadSceneAsync(string sceneName);
     }

@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace Rossoforge.Core.DataStructures
+namespace Rossoforge.Common.DataStructures
 {
     public class Node<T>
     {

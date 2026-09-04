@@ -1,8 +1,8 @@
 using UnityEngine;
 
-namespace Rossoforge.Core.Components
+namespace Rossoforge.Common.Components
 {
-    public class DontDestroyRoot : MonoBehaviour
+    public class PersistentObject : MonoBehaviour
     {
         private void Awake()
         {

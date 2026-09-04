@@ -1,5 +1,5 @@
-using Rossoforge.Core.Services;
 using Rossoforge.Events.Bus;
+using Rossoforge.Services.Service;
 
 namespace Rossoforge.Events.Service
 {

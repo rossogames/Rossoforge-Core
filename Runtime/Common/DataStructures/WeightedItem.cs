@@ -1,6 +1,6 @@
 using System;
 
-namespace Rossoforge.Core.DataStructures
+namespace Rossoforge.Common.DataStructures
 {
     [Serializable]
     public struct WeightedItem<T>
