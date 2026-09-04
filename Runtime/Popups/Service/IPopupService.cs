@@ -1,9 +1,10 @@
 using Rossoforge.Pool.DataConfig;
 using Rossoforge.Pool.Service;
+using Rossoforge.Popups.UI;
 using Rossoforge.Services.Service;
 using UnityEngine;
 
-namespace Rossoforge.Core.UI.Popups
+namespace Rossoforge.Popups.Service
 {
     public interface IPopupService : IService
     {

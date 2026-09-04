@@ -1,4 +1,4 @@
-namespace Rossoforge.Core.UI.Popups
+namespace Rossoforge.Popups.UI
 {
     public interface IPopupData
     {
