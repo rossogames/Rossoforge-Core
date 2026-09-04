@@ -1,4 +1,4 @@
-namespace Rossoforge.Core.UI.Screens
+namespace Rossoforge.Screens.UI
 {
     public interface IScreenView
     {
