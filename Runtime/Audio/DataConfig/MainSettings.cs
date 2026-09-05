@@ -1,0 +1,30 @@
+using System;
+using UnityEngine;
+using UnityEngine.Audio;
+
+namespace Rossoforge.Audio.DataConfig
+{
+    [Serializable]
+    public class MainSettings
+    {
+        [field: SerializeField]
+        public AudioResource AudioResource { get; private set; }
+
+        [field: Range(0f, 1f)]
+        [field: SerializeField]
+        public float Volume { get; private set; } = 1f;
+
+        [field: Range(-3f, 3f)]
+        [field: SerializeField]
+        public float Pitch { get; private set; } = 1f;
+
+        [field: SerializeField]
+        public bool Mute { get; private set; } = false;
+
+        [field: SerializeField]
+        public bool Loop { get; private set; } = false;
+
+        [field: SerializeField]
+        public bool Autoplay { get; private set; } = false;
+    }
+}
